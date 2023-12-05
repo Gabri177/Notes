@@ -8,7 +8,7 @@ all:
 	@git commit -m "update"
 	@echo -e "\e[1;42m 将新的改变同步到云仓库...\e[0m"
 	@git push
-	@echo -e "\e[1;42m 同步完毕...\e[0m"
+	@echo -e "\033[1;42m 同步完毕...\033[0m"
 
 .PHONY: clean undate
 
