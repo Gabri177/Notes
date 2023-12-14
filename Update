@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /Users/mac/Desktop/Typora
+make
